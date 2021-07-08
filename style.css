@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    width: 100%;
+    font: normal bold 16px/ normal tahoma;
+}
+
+article {
+    width: 300px;
+    text-align: center;
+    background-color: #68b04d;
+    border-radius: 10px;
+    margin: 50px auto 20px;
+    padding: 5px;
+    overflow: hidden;
+    box-shadow: 3px 3px 10px rgb(184, 184, 184);
+}
+
+article h3 {
+    padding: 10px;
+    color: #fff;
+}
+
+article .count {
+    padding: 5px;
+}
+
+article #timer {
+    padding: 8px;
+    color: crimson;
+    background-color: aliceblue;
+    border-radius: 2px;
+}
+
+article #botao {
+    border: none;
+    padding: 8px;
+    background-color: crimson;
+    font-size: medium;
+    color: ivory;
+    border-radius: 2px;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    transition: .5s ease all;
+}
+
+article #botao:hover {
+    background-color: white;
+    color: crimson;
+}
